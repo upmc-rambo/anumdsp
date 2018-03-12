@@ -1,0 +1,53 @@
+--------------------------  convolution.pjt - Debug  --------------------------
+[fct_asm_opt.asm] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -g -fr"C:/Documents and Settings/etudiant/Desktop/convolution/Debug" -d"_DEBUG" -mv6700 -@"Debug.lkf" "fct_asm_opt.asm"
+"fct_asm_opt.asm", WARNING! at line 6: [W0010] Ignoring extra text ['3'] after
+                                               unit specifier
+	   ||   LDB    .D3   *B4++,B5
+
+"fct_asm_opt.asm", WARNING! at line 9: [W0010] Ignoring extra text ['3'] after
+                                               unit specifier
+	   ||   LDB    .D3   *B4++,B5
+
+"fct_asm_opt.asm", WARNING! at line 12: [W0010] Ignoring extra text ['3'] after
+                                                unit specifier
+	   ||	LDB    .D3   *B4++,B5
+
+"fct_asm_opt.asm", WARNING! at line 15: [W0010] Ignoring extra text ['3'] after
+                                                unit specifier
+	   ||   LDB    .D3   *B4++,B5
+
+"fct_asm_opt.asm", WARNING! at line 18: [W0010] Ignoring extra text ['3'] after
+                                                unit specifier
+	   ||   LDB    .D3   *B4++,B5
+
+"fct_asm_opt.asm", WARNING! at line 21: [W0010] Ignoring extra text ['3'] after
+                                                unit specifier
+	   ||   LDB    .D3   *B4++,B5
+
+"fct_asm_opt.asm", WARNING! at line 25: [W0010] Ignoring extra text ['3'] after
+                                                unit specifier
+	   ||   LDB    .D3   *B4++,B5
+
+"fct_asm_opt.asm", WARNING! at line 29: [W0010] Ignoring extra text ['3'] after
+                                                unit specifier
+	   ||   LDB    .D3   *B4++,B5
+
+"fct_asm_opt.asm", WARNING! at line 34: [W0010] Ignoring extra text ['3'] after
+                                                unit specifier
+	   ||   LDB    .D3   *B4++,B5
+
+No Assembly Errors, 9 Assembly Warnings
+
+[fct_c_v3.c] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -g -fr"C:/Documents and Settings/etudiant/Desktop/convolution/Debug" -d"_DEBUG" -mv6700 -@"Debug.lkf" "fct_c_v3.c"
+"fct_c_v3.c", line 133: warning: pointless comparison of unsigned integer with zero
+"fct_c_v3.c", line 38: warning: variable "position" was set but never used
+"fct_c_v3.c", line 41: warning: variable "cmpt" was declared but never referenced
+"fct_c_v3.c", line 234: warning: variable "cmpt" was set but never used
+"fct_c_v3.c", line 235: warning: variable "origine" was declared but never referenced
+"fct_c_v3.c", line 236: warning: variable "indice_memoire_image_filtre" was declared but never referenced
+
+[Linking...] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -@"Debug.lkf"
+<Linking>
+
+Build Complete,
+  0 Errors, 15 Warnings, 0 Remarks.

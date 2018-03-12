@@ -1,0 +1,23 @@
+--------------------------  convolution.pjt - Debug  --------------------------
+[fct_c.c] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -g -fr"C:/Documents and Settings/etudiant/Desktop/convolution/Debug" -d"_DEBUG" -mv6700 -@"Debug.lkf" "fct_c.c"
+"fct_c.c", line 132: warning: pointless comparison of unsigned integer with zero
+"fct_c.c", line 37: warning: variable "position" was set but never used
+"fct_c.c", line 40: warning: variable "cmpt" was declared but never referenced
+"fct_c.c", line 233: warning: variable "cmpt" was set but never used
+"fct_c.c", line 234: warning: variable "origine" was declared but never referenced
+"fct_c.c", line 235: warning: variable "indice_memoire_image_filtre" was declared but never referenced
+"fct_c.c", line 317: warning: pointless comparison of unsigned integer with zero
+"fct_c.c", line 325: warning: pointless comparison of unsigned integer with zero
+
+Warning: The project has no cmd file while the Text Linker is selected
+[Linking...] "C:\CCStudio_v3.1\C6000\cgtools\bin\cl6x" -@"Debug.lkf"
+<Linking>
+>> warning: creating .stack section with default size of 400 (hex) words.
+   Use
+            -stack option to change the default size.
+>> warning: creating .sysmem section with default size of 400 (hex) words.
+  
+            Use -heap option to change the default size.
+
+Build Complete,
+  0 Errors, 11 Warnings, 0 Remarks.

@@ -1,0 +1,5 @@
+-z -c -m"./Debug/convolution.map" -o"./Debug/convolution.out" -w -x -i"C:/CCStudio_v3.1/C6000/rtdx/lib" -i"C:/CCStudio_v3.1/C6000/csl/lib" -i"C:/CCStudio_v3.1/C6000/xdais/lib" -i"C:/CCStudio_v3.1/C6000/bios/lib" -i"C:/CCStudio_v3.1/C6000/cgtools/lib"
+"C:\Documents and Settings\etudiant\Desktop\convolution\lien.cmd"
+"C:\Documents and Settings\etudiant\Desktop\convolution\Debug\fct_asm_opt.obj"
+"C:\Documents and Settings\etudiant\Desktop\convolution\Debug\fct_c_v3.obj"
+"C:\CCStudio_v3.1\C6000\cgtools\lib\rts6700.lib"

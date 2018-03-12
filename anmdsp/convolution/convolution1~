@@ -1,0 +1,127 @@
+if(width<k<(height-1)*width-1){
+      
+      pix_buf[0]=tab_image_source[k-width-1];
+      pix_buf[1]=tab_image_source[k-width];
+      pix_buf[2]=tab_image_source[k-width+1];
+      pix_buf[3]=tab_image_source[k-1];
+      pix_buf[4]=tab_image_source[k];
+      pix_buf[5]=tab_image_source[k+1];
+      pix_buf[6]=tab_image_source[k+width-1]; 
+      pix_buf[7]=tab_image_source[k+width];
+      pix_buf[8]=tab_image_source[k+width+1];
+
+
+}
+if(k==0){
+      
+      pix_buf[0]=0;
+      pix_buf[1]=0;
+      pix_buf[2]=0;
+      pix_buf[3]=0;
+      pix_buf[4]=tab_image_source[k];
+      pix_buf[5]=tab_image_source[k+1];
+      pix_buf[6]=0; 
+      pix_buf[7]=tab_image_source[k+width];
+      pix_buf[8]=tab_image_source[k+width+1];
+
+
+}
+if(k==(width-1)){
+      
+      pix_buf[0]=0;
+      pix_buf[1]=0;
+      pix_buf[2]=0;
+      pix_buf[3]=tab_image_source[k-1];
+      pix_buf[4]=tab_image_source[k];
+      pix_buf[5]=0;
+      pix_buf[6]=tab_image_source[k+width-1]; 
+      pix_buf[7]=tab_image_source[k+width];
+      pix_buf[8]=0;
+
+
+}
+if(k==(height-1)*width){
+      
+      pix_buf[0]=0;
+      pix_buf[1]=tab_image_source[k-width];
+      pix_buf[2]=tab_image_source[k-width+1];
+      pix_buf[3]=0;
+      pix_buf[4]=tab_image_source[k];
+      pix_buf[5]=tab_image_source[k+1];
+      pix_buf[6]=0; 
+      pix_buf[7]=0;
+      pix_buf[8]=0;
+
+
+}
+
+
+
+if(k==height*width-1){
+      
+      pix_buf[0]=tab_image_source[k-width-1];
+      pix_buf[1]=tab_image_source[k-width];
+      pix_buf[2]=0;
+      pix_buf[3]=tab_image_source[k-1];
+      pix_buf[4]=tab_image_source[k];
+      pix_buf[5]=0;
+      pix_buf[6]=0; 
+      pix_buf[7]=0;
+      pix_buf[8]=0;
+
+
+}
+if(0<k<c){
+      
+      pix_buf[0]=0;
+      pix_buf[1]=0;
+      pix_buf[2]=0;
+      pix_buf[3]=tab_image_source[k-1];
+      pix_buf[4]=tab_image_source[k];
+      pix_buf[5]=tab_image_source[k+1];
+      pix_buf[6]=tab_image_source[k+width-1]; 
+      pix_buf[7]=tab_image_source[k+width];
+      pix_buf[8]=tab_image_source[k+width+1];
+
+
+}
+if((height-1)*width<k<height*width-1){
+      
+      pix_buf[0]=tab_image_source[k-width-1];
+      pix_buf[1]=tab_image_source[k-width];
+      pix_buf[2]=tab_image_source[k-width+1];
+      pix_buf[3]=tab_image_source[k-1];
+      pix_buf[4]=tab_image_source[k];
+      pix_buf[5]=tab_image_source[k+1];
+      pix_buf[6]=0; 
+      pix_buf[7]=0;
+      pix_buf[8]=0;
+
+
+}
+if((k%width==0)&&(k!=0)&&(k!=(height-1)*width)){
+      
+      pix_buf[0]=tab_image_source[k-width-1];
+      pix_buf[1]=0;
+      pix_buf[2]=tab_image_source[k-width+1];
+      pix_buf[3]=0;
+      pix_buf[4]=tab_image_source[k];
+      pix_buf[5]=tab_image_source[k+1];
+      pix_buf[6]=0; 
+      pix_buf[7]=tab_image_source[k+width];
+      pix_buf[8]=tab_image_source[k+width+1];
+
+
+}
+
+if(((k+1)%width==0)&&(k!=width-1)&&(k!=height*width-1)){
+      
+      pix_buf[0]=tab_image_source[k-width-1];
+      pix_buf[1]=tab_image_source[k-width];
+      pix_buf[2]=0;
+      pix_buf[3]=tab_image_source[k-1];
+      pix_buf[4]=tab_image_source[k];
+      pix_buf[5]=0;
+      pix_buf[6]=tab_image_source[k+width-1]; 
+      pix_buf[7]=tab_image_source[k+width];
+      pix_buf[8]=0;
