@@ -173,7 +173,7 @@ void MULTBOOTH(short * A,short * B,short  NB_BITS_A,short NB_BITS_B,short * S){
         S[NB_BITS_A+NB_BITS_B-1]=S[NB_BITS_A+NB_BITS_B-2];
     };
     
-}
+
 
 void FIR(short *X, short K, short *A, short C, short L, short **Y){
     short i,j,yn;

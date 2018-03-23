@@ -223,12 +223,12 @@ void FIR(short *X, short K, short *A, short C, short L, short **Y){
             Y[yn][i]=OUT[i];
         };
         
-        if ((Y[(K+C+ln(L)/ln(2))-1])^(COUNT[(K+C+ln(L)/ln(2))-2]) ){
+       // if ((Y[(K+C+ln(L)/ln(2))-1])^(short)(COUNT[(K+C+ln(L)/ln(2))-2]) ){
             Y[(K+C+ln(L)/ln(2))-1]=0;
-        }
-        else{
+        //}
+       // else{
             Y[yn][(K+C+ln(L)/ln(2))-1]=Y[yn][(K+C+ln(L)/ln(2))-2];
-        };
+       // };
     };
     
     
