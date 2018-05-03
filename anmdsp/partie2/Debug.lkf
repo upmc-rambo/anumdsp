@@ -1,4 +1,0 @@
--z -c -m"./Debug/partie2.map" -o"./Debug/partie2.out" -w -x -i"C:/CCStudio_v3.1/C6000/rtdx/lib" -i"C:/CCStudio_v3.1/C6000/csl/lib" -i"C:/CCStudio_v3.1/C6000/xdais/lib" -i"C:/CCStudio_v3.1/C6000/bios/lib" -i"C:/CCStudio_v3.1/C6000/cgtools/lib"
-"C:\Documents and Settings\etudiant\Desktop\partie2\lien.cmd"
-"C:\Documents and Settings\etudiant\Desktop\partie2\Debug\Fonctions_lire&ecrire_images.obj"
-"C:\CCStudio_v3.1\C6000\cgtools\lib\rts6700.lib"
